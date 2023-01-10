@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <rel="stylesheet">
+    <style>
+      body{
+        margin: 35px;
+        padding: 8px;
+        background:rgba(55, 172, 172, 0.832);
+      }
+        .head{
+            font-size: 20px;
+            font-family: cursive;
+            text-align: center;
+            margin: 5px;
+            padding: 10px;
+        }
+        .form{
+          background: rgba(6, 81, 103, 0.384);
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 18px 131px 273px 100px;
+    margin-left: 445px;
+    margin-top: 122px;
+    width: 21%;
+    height: 264px;
+    color: rgb(0, 0, 0);
+    box-shadow: 25px 50px 75px black;
+}
+
+   
+  .form input,
+  textarea{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text: black;
+    border-radius: 8px;
+    margin: 10px 47px;
+    padding: 8px 11px;
+    width: 241px;
+    text-align: center;
+    background: rgba(253, 253, 253, 0.603);
+    border: 2px solid black;
+}
+          
+        form input[type="text"],
+        textarea{
+          border: 2px solid black;
+         text-emphasis-color: red;
+        }
+        form h2{
+          font-size: 25px;
+          text-align: center;
+          font-family: 'Courier New', Courier, monospace;
+          text-decoration: underline;
+        }
+        .btn{
+          padding: 5px;
+          width: 71px;
+          margin: 5px 29px 13px 144px;
+          border: 2px solid black;
+          border-radius: 8px;
+          background: rgba(38, 141, 141, 0.692);
+          color: rgba(0, 0, 0, 0.721);
+}
+        
+        .input textarea:mytext{
+          outline:none;
+          border: none;
+          padding: 10px;
+          
+          border: 1px gray;
+          border-top-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+          width: 100%;
+        }
+
+
+        .container_1{
+          display: flex;
+          flex-flow:row nowrap;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 100%;
+          min-width: 500px;
+          gap: 1.5rem;
+
+        }
+        
+         
+        
+       .container{
+        border: 2px solid rgb(8, 8, 8);
+        padding: 15px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+/*         justify-content: center;
+        align-items: center; */
+       width: 300px;
+         
+ 
+ 
+   border-radius: 14px;
+   box-shadow: 20px 30px 40px rgb(12, 21, 24);
+   background-color: rgba(38, 95, 115, 0.689);
+       }
+    
+       .info{
+        width: 570px;
+    margin: 12px;
+    padding: 20px;
+    font-size: 106%;
+    font-family: cursive;
+       }
+       .end{
+        border: 2px solid red;
+        margin: 12px;
+        padding: 20px;
+        width: 30px;
+
+       }
+    </style>
+</heder>
+<body>
+  <header class="head">
+    <h2>Book your time</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quibusdam esse aliquid
+      iusto deleniti vero delectus tenetur temporibus ut eligendi
+      , numquam quas at praesentium dolor nostrum nesciunt reiciendis a eum pariatur.</p>
+  </header>
+
+
+  <section class="container_1">
+
+   <div class="container">
+   
+      <h2>Box-1</h2>
+      <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+         voluptates reiciendis perferendis ea, perspiciatis sunt.</p>
+    </div>
+    <div class="container">
+      <h2>Box-2</h2>
+      <p id="second">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Repellendus fugit dicta provident eaque, ducimus quam.</p>
+    </div>
+    
+    <div class="container">
+      <h2>Box-3</h2>
+      <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ab perspiciatis expedita nemo id consectetur optio!</p>
+    </div>
+
+  </section>
+  
+
+  <form action="backend.php">
+    <div class="form">
+      <h2>Book your time</h2>
+    
+    <div>  
+         <input type="text" placeholder="Name">
+    </div>
+
+    <div>   
+        <input type="email" placeholder="Email">
+      </div>
+      <div>   
+        <input type="number" placeholder="Number">
+      </div>
+      <div >   
+        <input type="time" placeholder="Time"><input type="date" placeholder="Date">
+      </div>
+      <div >   
+        <textarea name="mytext" placeholder="message" colm="10" rows="4"></textarea>
+        </div>
+      <div>    
+      <button class="btn">Submit</button>
+      </div>
+    </div>
+     
+      <div class="info">
+        <h3>Abbout the site</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, quisquam 
+          ad veritatis obcaecati assumenda corporis nesciunt necessitatibus delectus asperiores,
+          ipsa accusantium sint dolorem?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Beatae cumque deserunt asperiores nulla.
+           Eveniet amet qui illum doloremque praesentium consectetur dolorum molestiae hic!
+           ipsum dolor sit amet consectetur adipisicing elit. Dolores cumque possimus consequatur, quas
+           accusamus quasi ducimus, dolore aspernatur non, nesciunt itaque! Ullam reru
+           fugiat pariatur, neque cumque rem eveniet a harum aliquam esse, sed quis</p>
+      </div>
+      <hr>
+      
+   
+   </div>
+  </form>
+</body>
+</html>
